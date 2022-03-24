@@ -63,6 +63,6 @@ app.post("/specificknowledge", async (req, res) => {
 //   }
 // });
 
-app.listen(8000, function () {
+app.listen(process.env.PORT, function () {
   console.log("now working");
 });
